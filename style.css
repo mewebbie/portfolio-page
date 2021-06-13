@@ -162,6 +162,13 @@ div.proj-img > img {
     .section-basic {
         margin:0 15px;
     }
+    .section-odd {
+        margin-top:20px;
+    }
+    .section-odd.section-third {
+        margin-top:0;
+        margin-bottom:20px;
+    }
     .flex-row-mob {
         display:flex;
         flex-direction:column;
