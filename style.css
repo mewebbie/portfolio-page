@@ -193,4 +193,7 @@ div.proj-img > img {
     .card-align {
         font-size:12px;
     }
+    .mob-shrink-font {
+       font-size:1em;
+    }
 }
