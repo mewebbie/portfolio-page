@@ -1,0 +1,70 @@
+.letter-spacing {
+    letter-spacing: 5px;
+}
+ul {
+    list-style-type:none;
+}
+.line-height {
+    line-height:45px;
+}
+img {
+    width:100%;
+}
+
+a {
+    text-decoration:none;
+    color:unset;
+}
+.gradient-on-hover:hover {
+    background:linear-gradient(to bottom, white, gold 80%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    -ms-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+.card-align {
+    margin-left:20px;
+    padding:10px;
+    transition:transform 0.095s ease-in;
+}
+.text-center {
+    text-align:center;
+}
+.flex-col {
+    display:flex;
+    justify-content:space-between;
+}
+.hover-style:hover {
+    border-bottom:2px solid white;
+    cursor:pointer;
+    transform:scale(1.05);
+}
+.border-bottom-none:hover {
+    border:none;
+}
+.section-basic {
+    line-height:35px;
+    margin:0 100px;
+    padding:15px;
+    font-size:1.5em;
+    font-family:'Lato', sans-serif;
+    font-weight:bold;
+}
+.section-odd {
+    color:var(--primary-light-color);
+    margin-top:20px;
+    border:2px solid var(--primary-light-color);
+}
+.section-even {
+    color:#fff;
+    background-color:var(--primary-light-color);
+}
+.section-even h1{
+    padding-bottom:15px;
+    border-bottom:2px solid #fff;
+}
+a:active {
+    border:2px dashed var(--primary-dark-color);
+}
+
